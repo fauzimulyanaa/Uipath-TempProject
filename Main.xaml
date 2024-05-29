@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="836.6666666666666,3118" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="836.6666666666666,3158" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -108,7 +108,7 @@
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="846.6666666666666,3053.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="846.6666666666666,3093.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Temp" />
       <Variable x:TypeArguments="x:String" Name="Humadity" />
@@ -120,23 +120,23 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Google" sap:VirtualizedContainerService.HintSize="784.6666666666666,1310.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="042ab809-ef07-4aa7-8745-67cc0ef36da7" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Google" sap:VirtualizedContainerService.HintSize="784.6666666666666,1316" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="042ab809-ef07-4aa7-8745-67cc0ef36da7" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,1060" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,1064.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TEXTAREA APjFqb'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="434,289.3333333333333" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="042ab809-ef07-4aa7-8745-67cc0ef36da7" Text="Jakarta Temperature[k(Enter)]" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TEXTAREA APjFqb'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="434,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="042ab809-ef07-4aa7-8745-67cc0ef36da7" Text="Jakarta Temperature[k(Enter)]" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://www.google.com/" CVScreenId="dce46055-0808-45fc-abfb-cf06217ceb2f" CvElementArea="530, 483, 880, 75" CvType="InputBox" DesignTimeRectangle="605, 487, 665, 69" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' type='' class='gLFyf' aaname='Telusuri' /&gt;" Guid="f3c21a80-5a98-4919-b827-7178b3f3a4c8" InformativeScreenshot="b007a9a9b64d225267acfa2eb87015fe.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="dce46055-0808-45fc-abfb-cf06217ceb2f" CvElementArea="716, 598, 246, 58" CvTextArea="741, 617, 193, 22" CvTextArgument="Penelusuran Google" CvType="Button" DesignTimeRectangle="718, 601, 242, 54" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;center&amp;gt;input' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='submit' tag='INPUT' class='gNO89b' aaname='Penelusuran Google' check:text='Penelusuran Google' /&gt;" Guid="f4c370bb-ec11-44cf-942d-bc30122d9dc1" SearchSteps="Selector, FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -150,7 +150,7 @@
                   <uix:VerifyExecutionTypeIntoOptions.Target>
                     <uix:TargetAnchorable BrowserURL="https://www.google.com/" CVScreenId="0f568667-7c71-4a28-803f-e5b4c0c28f3b" CvElementArea="530, 437, 879, 75" CvType="InputBox" DesignTimeRectangle="605, 487, 665, 69" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' type='' class='gLFyf' aaname='Telusuri' /&gt;" Guid="d69f31e9-b017-4d9d-b4f5-1573d12ef323" InformativeScreenshot="d2a615a7295f3d5344ec2b358b05a1c9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
                       <uix:TargetAnchorable.Anchors>
-                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                           <uix:Target CVScreenId="0f568667-7c71-4a28-803f-e5b4c0c28f3b" CvTextArea="741, 651, 453, 24" CvTextArgument="Google tersedia dalam bahasa: English Basa Bali" CvType="Text" DesignTimeRectangle="533, 584, 876, 87" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;center' tag='CENTER' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='CENTER' class='' aaname='    ' check:text='Penelusuran Google' /&gt;" Guid="1e182c1e-eb2a-487c-b8cd-2d34220d66e7" SearchSteps="FuzzySelector, CV" />
                         </scg:List>
                       </uix:TargetAnchorable.Anchors>
@@ -162,22 +162,22 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NGetText DisplayName="Get Text 'Suhu'" sap:VirtualizedContainerService.HintSize="434,190.66666666666666" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="042ab809-ef07-4aa7-8745-67cc0ef36da7" TextString="[Temp]" Version="V3">
+            <uix:NGetText DisplayName="Get Text 'Suhu'" sap:VirtualizedContainerService.HintSize="434,191.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="042ab809-ef07-4aa7-8745-67cc0ef36da7" TextString="[Temp]" Version="V3">
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=jakarta+temperature&amp;sca_esv=741749e29e505560&amp;sxsrf=ADLYWILUOgmtiChRns7Eie40ZHlIhkfxQw%3A1716880568285&amp;source=hp&amp;ei=uIRVZtSED4Sk2roPxqaj8A8&amp;iflsig=AL9hbdgAAAAAZlWSyIiLKl-9dQHbKfvYBkUtv0qP0qGa&amp;oq=jakarta+tem&amp;gs_lp=Egdnd3Mtd2l6IgtqYWthcnRhIHRlbSoCCAEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESKE7UO0DWLIvcAZ4AJABAJgBwwKgAfkTqgEIMS4xMi4yLjG4AQPIAQD4AQGYAhagArUUqAIKwgIHECMYJxjqAsICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMY0QMYgwEYxwHCAgUQLhiABMICCBAAGIAEGLEDwgIKECMYgAQYJxiKBcICChAAGIAEGEMYigXCAhQQLhiABBixAxiDARjHARiOBRivAcICEBAuGIAEGLEDGEMYgwEYigXCAggQLhiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgILEC4YgAQYsQMYgwHCAgcQABiABBgKwgIGEAAYFhgewgICECbCAggQABiABBiiBMICDhAuGIAEGMcBGI4FGK8BwgILEC4YgAQYxwEYrwGYAweSBwg3LjEyLjIuMaAHzMgB&amp;sclient=gws-wiz" CVScreenId="df2437d2-8af3-42dc-b7e2-fe57afd61beb" CvTextArea="275, 567, 81, 57" CvType="AnyWordGroup" DesignTimeRectangle="275, 551, 81, 91" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl id='wob_tm' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='wob_tm' tag='SPAN' type='' class='wob_t q8U8x' /&gt;" Guid="e9531763-711f-40cc-9a64-bcbcea473b8d" InformativeScreenshot="f06ea276272371ebe822cb085f404408.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='jakarta temperature - Penelusuran Google' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="df2437d2-8af3-42dc-b7e2-fe57afd61beb" CvTextArea="168, 675, 51, 19" CvTextArgument="Suhu" CvType="Text" DesignTimeRectangle="170, 669, 49, 43" ElementType="Text" FullSelectorArgument="&lt;webctrl id='wob_temp' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='wob_temp' tag='DIV' type='' class='ksb ksbs' aaname='Suhu' check:innerText='Suhu' /&gt;" Guid="e711d584-943d-4248-954c-22803c9293d1" SearchSteps="Selector, FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NGetText.Target>
             </uix:NGetText>
-            <uix:NGetText DisplayName="Get Text 'Kelembapan'" sap:VirtualizedContainerService.HintSize="434,190.66666666666666" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="042ab809-ef07-4aa7-8745-67cc0ef36da7" TextString="[Humadity]" Version="V3">
+            <uix:NGetText DisplayName="Get Text 'Kelembapan'" sap:VirtualizedContainerService.HintSize="434,191.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="042ab809-ef07-4aa7-8745-67cc0ef36da7" TextString="[Humadity]" Version="V3">
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=jakarta+temperature&amp;sca_esv=741749e29e505560&amp;sxsrf=ADLYWILUOgmtiChRns7Eie40ZHlIhkfxQw%3A1716880568285&amp;source=hp&amp;ei=uIRVZtSED4Sk2roPxqaj8A8&amp;iflsig=AL9hbdgAAAAAZlWSyIiLKl-9dQHbKfvYBkUtv0qP0qGa&amp;oq=jakarta+tem&amp;gs_lp=Egdnd3Mtd2l6IgtqYWthcnRhIHRlbSoCCAEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESKE7UO0DWLIvcAZ4AJABAJgBwwKgAfkTqgEIMS4xMi4yLjG4AQPIAQD4AQGYAhagArUUqAIKwgIHECMYJxjqAsICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMY0QMYgwEYxwHCAgUQLhiABMICCBAAGIAEGLEDwgIKECMYgAQYJxiKBcICChAAGIAEGEMYigXCAhQQLhiABBixAxiDARjHARiOBRivAcICEBAuGIAEGLEDGEMYgwEYigXCAggQLhiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgILEC4YgAQYsQMYgwHCAgcQABiABBgKwgIGEAAYFhgewgICECbCAggQABiABBiiBMICDhAuGIAEGMcBGI4FGK8BwgILEC4YgAQYxwEYrwGYAweSBwg3LjEyLjIuMaAHzMgB&amp;sclient=gws-wiz" CVScreenId="1653a51c-bb7a-4293-af9c-1f965e9c89b3" CvTextArea="551, 590, 37, 18" CvType="AnyWordGroup" DesignTimeRectangle="553, 590, 36, 20" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl id='wob_hm' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='wob_hm' tag='SPAN' type='' class='' /&gt;" Guid="20cac1a3-af8a-498b-8dd3-0d073bcd2610" InformativeScreenshot="30a4c5bcc5b44c4a6eed15c511cf30dc.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='jakarta temperature - Penelusuran Google' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="1653a51c-bb7a-4293-af9c-1f965e9c89b3" CvTextArea="440, 591, 106, 19" CvTextArgument="Kelembapan:" CvType="Text" DesignTimeRectangle="440, 591, 106, 21" ElementType="Text" Guid="200dbb1e-90ef-4e70-9f81-90d46974a307" SearchSteps="CV" TargetType="ComputerVisionBased" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -188,7 +188,7 @@
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=jakarta+temperature&amp;sca_esv=741749e29e505560&amp;sxsrf=ADLYWILUOgmtiChRns7Eie40ZHlIhkfxQw%3A1716880568285&amp;source=hp&amp;ei=uIRVZtSED4Sk2roPxqaj8A8&amp;iflsig=AL9hbdgAAAAAZlWSyIiLKl-9dQHbKfvYBkUtv0qP0qGa&amp;oq=jakarta+tem&amp;gs_lp=Egdnd3Mtd2l6IgtqYWthcnRhIHRlbSoCCAEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESKE7UO0DWLIvcAZ4AJABAJgBwwKgAfkTqgEIMS4xMi4yLjG4AQPIAQD4AQGYAhagArUUqAIKwgIHECMYJxjqAsICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMY0QMYgwEYxwHCAgUQLhiABMICCBAAGIAEGLEDwgIKECMYgAQYJxiKBcICChAAGIAEGEMYigXCAhQQLhiABBixAxiDARjHARiOBRivAcICEBAuGIAEGLEDGEMYgwEYigXCAggQLhiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgILEC4YgAQYsQMYgwHCAgcQABiABBgKwgIGEAAYFhgewgICECbCAggQABiABBiiBMICDhAuGIAEGMcBGI4FGK8BwgILEC4YgAQYxwEYrwGYAweSBwg3LjEyLjIuMaAHzMgB&amp;sclient=gws-wiz" CVScreenId="1653a51c-bb7a-4293-af9c-1f965e9c89b3" CvTextArea="497, 615, 62, 16" CvType="AnyWordGroup" DesignTimeRectangle="497, 614, 63, 20" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl id='wob_ws' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='wob_ws' tag='SPAN' type='' class='wob_t' /&gt;" Guid="61c5f1bf-3b4e-44b0-99d1-76e61d20917c" InformativeScreenshot="c37d7df46586b73ec6762848c1bca0a4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='jakarta temperature - Penelusuran Google' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="1653a51c-bb7a-4293-af9c-1f965e9c89b3" CvTextArea="438, 615, 121, 21" CvTextArgument="Angin: 11 km/h" CvType="Text" DesignTimeRectangle="441, 612, 148, 24" FullSelectorArgument="&lt;webctrl aaname='Angin: ' parentid='wob_wc' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Angin: ' parentid='wob_wc' tag='DIV' type='' class='' check:innerText='Angin: 11 km/h' /&gt;" Guid="87048f7e-4022-4708-9140-86f331823564" SearchSteps="Selector, FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -210,25 +210,25 @@
         <uix:TargetApp Area="-11, -11, 1942, 1162" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAARHSURBVFhHvZddbBRVFMf7YrAq+OSbD6Kgb0qUUh60xq9VtA8k1EJrH1CsGIM+GLUmBA0kFi0WSMCHLcVCTMO2GmjFCiUFpH60sUjMEtIGLaAWama32w92dt2vOf7PndPd3M7sdmobf8k/M/fec8//zJ07s7NFXrEsawlUnclkmqEBaAxKisLS14yYKo6VafMHyR5A4hYoTh5BbAw6iLnLJc3cQZ7bkKQRSttp5w7mpqBdKKRY0noDE+7HxEuSZ94gVxA5l0n6wiDwYUwIyVyN9I0RMls/p4l33qDwi8+R4VtNxjOlFF7no/G3XyfzcBOlR/6UaB3kNHBYITbuyJU7zNOj12ly+/tkPL2KjKdKCgsxkx++p+bMhIvIuxIYuB0BjmWPn+qi0Atl7mYFFCp/nP45e0qy5IAH3w7nnsBAo8RkMY8cck3uVVMN2yWTDrwaxNYGFfGjpu12vnK3pKxIbRVFD+yj+DdHKd51DOf7KfJatRYztbueyLIkmw68UtqtQEeLjCl4s4Wef0xLyBqrWUuJ8/0S5SQx0EfhDeV0c/+n0pMfeDYrc5zfiYb2konufdNhPr7lZbKmpiQiP5YZlbPCwNPEKizm5a+WPoUVG6ZU9yKarLsna86PXGYiIhELB7zX8/I3S1uRuVpPqZ5blMx9d1FozUqKnzwuowsLvP1cwIC0FelffNkCWImjS4lSKRldWODdzwWMSVuR6r1bKyB9sUpG3Hnyo6hnnb2kXwi8DS4gKW1F6vQirYDM79tkxB03o3xq/VGz4gIS/2sBLecSMstmuoCwtBWOWxDcICPuuBnlU3u/YwXULdA34YVntQJGeh+kZGbum/CKkXEUcG7QsQfUJpzxGH6cNT/etZQeDayljuEeGfVOoC/pKGB0Qn81w9vPLyJtm1uxqxTrKab6jkdoZWCdkq/jFQrHxyVidm7GLarYa2rmG/0xGc0B70ouYAkq0Ub39O3Imk+rpvtdmkjM/ipO4iet7khcM2e1Oe+/icMd6vcAjYN2t82NqEFlX73kKKL8683Ue/28RDm5PH6NNnUGYDipmfNqxBKO5W9S5gxWYTk6tB1y4lqvo4BpVXz7FjVeaKH2yyfoy99O0mfBVnq1ZyuVBCrUeOmhOnrik7+yBXw/pH/XwisJz/vE3gadu2Q8yxdDnQ5zrypp3Uhlu392PPsMvHaKbQ7082f4RTskR/cfP+B21LiaFFJpWyUdCHZKlhzw+BWHW8VWB8uyDAH89aoxaoZo6097aFWbvcSzafOZD2gwMiyzcyD33zjcK3buIGCFWxEMb87Dg8doy3c7aE1nLa1ur1RX6uvYRLWnt6m9MBS5ItE6bI4LfEhsCiMrEZS58wa5eNkLX/lMUEQxJjZA//ljAHP5j+tOnLrfcy/IavA/Yn5xeIJjoSbM1R+1+YBki6H1SOyH+iEDSoj4nPv8iKlEDfYbblaKiv4FoeF/NqqvoEMAAAAASUVORK5CYII=" InformativeScreenshot="27540d1782fa8e0dcaa27d202f45d8ec.jpg" Selector="&lt;html app='chrome.exe' title='Google' /&gt;" Title="Google" Url="https://www.google.com/" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="784.6666666666666,1654.666666666667" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="784.6666666666666,1689.3333333333333" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
       <ueab:ExcelProcessScopeX.Body>
         <ActivityAction x:TypeArguments="ui:IExcelProcess">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="750.6666666666666,1567.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="750.6666666666666,1579.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="688.6666666666666,1482.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="C:\Users\Admin\Documents\TempExcel.xlsx">
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="688.6666666666666,1494.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="C:\Users\Admin\Documents\TempExcel.xlsx">
               <ueab:ExcelApplicationCard.Body>
                 <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="654.6666666666666,1186" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="654.6666666666666,1191.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="sd:DataTable" Name="DT1_Temp" />
                     </Sequence.Variables>
@@ -237,8 +237,8 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="592.6666666666666,203.33333333333334" sap2010:WorkflowViewState.IdRef="ReadRangeX_1" Range="[Excel.Sheet(&quot;Sheet1&quot;)]" SaveTo="[DT1_Temp]" />
-                    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="[TimeStamp]" DataTable="[DT1_Temp]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="592.6666666666666,221.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" />
+                    <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="592.6666666666666,206.66666666666666" sap2010:WorkflowViewState.IdRef="ReadRangeX_1" Range="[Excel.Sheet(&quot;Sheet1&quot;)]" SaveTo="[DT1_Temp]" />
+                    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="[TimeStamp]" DataTable="[DT1_Temp]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="592.6666666666666,223.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" />
                     <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[DT1_Temp]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="592.6666666666666,676.6666666666666" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                       <ui:ForEachRow.Body>
                         <ActivityAction x:TypeArguments="sd:DataRow">
